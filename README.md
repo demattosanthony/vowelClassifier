@@ -1,10 +1,15 @@
 # Vowel Classifier
-Portfolio For Computational Physics
 
-By: Spencer Peters and Anthony Demattos
+## Abstract 
+The goal of this project is to investigate the use of building a deep learning model that is capable of determining what vowel a person says. A focus will be put on transforming audio files into a way that allows a model to learn from audio data most efficently and effectively.
 
-### Overview 
-This project uses a convolutional nerual network that is capable of determining what vowel a person says. It will transform waveform audio files into mel spectograms which esentially turns it into a computer vision problem rather than audio. The model will be trained on one second audio clips collected from various people. 
+## Building the model
+
+The vowelClassifier jupyter notebook will take you through my journey of building a model capable of classifying a vowel. 
+
+## Results 
+
+The trained model works with almost 100% accuracy on my voice, you can test the model yourself by using the inference jupyter notebook. I suggest recording your own data and retraining the model, about 20 samples per vowel should be more than enough.
 
 ### Directions
 
